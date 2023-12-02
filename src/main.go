@@ -1,4 +1,4 @@
-package src
+package main
 
 import (
 	trebuchet "aoc2023-go/src/day1"
