@@ -1,9 +1,17 @@
 package main
 
 import (
-	trebuchet "aoc2023-go/src/day1"
+	"aoc2023-go/src/day1"
+	"aoc2023-go/src/day2"
+	"fmt"
 )
 
 func main() {
-	trebuchet.Trebuchet()
+	fmt.Println("First Day:")
+	day1.Trebuchet()
+
+	fmt.Println()
+
+	fmt.Println("Second Day:")
+	day2.TrebuchetExtended()
 }
