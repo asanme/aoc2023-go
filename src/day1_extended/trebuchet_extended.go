@@ -1,4 +1,4 @@
-package day2
+package day1_extended
 
 import (
 	"aoc2023-go/src/util"

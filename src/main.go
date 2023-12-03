@@ -2,7 +2,7 @@ package main
 
 import (
 	"aoc2023-go/src/day1"
-	"aoc2023-go/src/day2"
+	"aoc2023-go/src/day1_extended"
 	"fmt"
 )
 
@@ -13,5 +13,5 @@ func main() {
 	fmt.Println()
 
 	fmt.Println("Second Day:")
-	day2.TrebuchetExtended()
+	day1_extended.TrebuchetExtended()
 }
